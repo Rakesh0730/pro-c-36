@@ -23,7 +23,7 @@ function setup() {
   dog.scale = 0.15;
 
   feed = createButton("Feed the dog");
-  feed.position(820, 95);
+  feed.position(860, 95);
   feed.mousePressed(feedDog());
 
   addFood = createButton("Add Food");
@@ -43,7 +43,7 @@ function draw() {
   } else if(lastFed == 0){
       text("Last Fed: 12 AM", 350, 30);
   } else {
-     // show time in AM format when lastFed i less than 12
+     // show time in AM format when lastFed is less than 12
   }
  
   drawSprites();
