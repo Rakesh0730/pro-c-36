@@ -81,7 +81,7 @@ function feedDog(){
 
 //function to add food in stock
 function addFoods(){
-  foodS ++;
+  foodS++;
   database.ref('/').update({
     Food : foodS
   })
