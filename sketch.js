@@ -83,6 +83,6 @@ function feedDog(){
 function addFoods(){
   foodS++;
   database.ref('/').update({
-    Food : foodS
+    Food:foodS
   })
 }
